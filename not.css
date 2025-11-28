@@ -1,0 +1,117 @@
+
+/*  Estilos Base para o Corpo do Documento (Body) */
+/* Define a fonte e as propriedades básicas para todo o texto. */
+body {
+    /* Define uma família de fontes legível. */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    /* Tamanho de fonte base. */
+    font-size: 16px; 
+    /* Altura da linha para melhor leitura (idealmente 1.5 a 1.6). */
+    line-height: 1.6; 
+    /* Cor principal do texto. */
+    color: #333333; 
+    /* Cor de fundo suave. */
+    background-color: #f4f4f4; 
+    /* Margens para afastar o conteúdo das bordas. */
+    margin: 20px; 
+    /* Preenchimento. */
+    padding: 0;
+}
+
+/* ======================================================= */
+/* 2. Estilos para Títulos (H1, H2, H3) */
+/* Definem a hierarquia visual dos títulos. */
+/* ======================================================= */
+h1 {
+    font-size: 2.5em; /* 2.5 vezes o tamanho base (16px * 2.5) */
+    color: #1a5276; /* Cor de destaque para o título principal */
+    margin-bottom: 0.5em;
+    text-transform: uppercase; /* Coloca o texto em maiúsculas */
+    border-bottom: 2px solid #1a5276; /* Linha sob o título */
+    padding-bottom: 5px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #2c3e50;
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+}
+
+h3 {
+    font-size: 1.4em;
+    color: #5d6d7e;
+    margin-top: 1em;
+}
+
+/* ======================================================= */
+/* 3. Estilos para Parágrafos e Elementos de Bloco */
+/* ======================================================= */
+p {
+    /* Garante que os parágrafos tenham a mesma altura de linha do body, mas permite ajustes. */
+    line-height: inherit; 
+    /* Espaço entre parágrafos. */
+    margin-bottom: 1em; 
+    /* Indentação para o primeiro parágrafo. */
+    text-indent: 0; 
+    /* Alinhamento justificado para blocos de texto longo. */
+    text-align: justify; 
+}
+
+/* Estilo para citações em bloco */
+blockquote {
+    /* Cor de fundo leve. */
+    background-color: #eaf2f8; 
+    /* Borda lateral para destaque visual. */
+    border-left: 5px solid #1a5276; 
+    /* Espaçamento interno. */
+    padding: 15px;
+    /* Inclinar levemente o texto. */
+    font-style: italic; 
+    margin: 20px 0;
+}
+
+/* ======================================================= */
+/* 4. Estilos para Listas */
+/* Melhoram a aparência de listas não ordenadas e ordenadas. */
+/* ======================================================= */
+ul, ol {
+    margin: 1em 0 1em 20px;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+/* ======================================================= */
+/* 5. Estilos para Links */
+/* Definem a cor e o comportamento dos hiperlinks. */
+/* ======================================================= */
+a {
+    /* Cor azul padrão para links. */
+    color: #3498db; 
+    /* Remove o sublinhado padrão. */
+    text-decoration: none; 
+}
+
+a:hover {
+    /* Sublinha o link ao passar o mouse. */
+    text-decoration: underline; 
+    /* Muda a cor ao passar o mouse. */
+    color: #1a5276; 
+}
+
+/* ======================================================= */
+/* 6. Ênfase (Negrito, Itálico) */
+/* ======================================================= */
+strong {
+    /* Torna o negrito mais evidente. */
+    font-weight: 700; 
+    color: #2c3e50;
+}
+
+em {
+    /* Garante que o itálico se destaque. */
+    font-style: italic; 
+}
